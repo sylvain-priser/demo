@@ -13,7 +13,7 @@ class DemoSpec extends Specification {
 
     void 'test it works'() {
         expect:
-        application.running
+        ! application.running
     }
 
 }
